@@ -37,3 +37,40 @@ int main() {
     
     return 0;
 }
+
+/*
+there is a optimize for to solve the problema
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string a, b, c;
+    cin >> a >> b >> c;
+
+    for (char &ch : a) ch = tolower(ch);
+    for (char &ch : b) ch = tolower(ch);
+    for (char &ch : c) ch = tolower(ch);
+
+    if (a == "vertebrado") {
+        if (b == "ave") {
+            if (c == "carnivoro") cout << "aguia\n";
+            else cout << "pomba\n";
+        } else { // mamífero
+            if (c == "onivoro") cout << "homem\n";
+            else cout << "vaca\n";
+        }
+    } else { // invertebrado
+        if (b == "inseto") {
+            if (c == "hematofago") cout << "pulga\n";
+            else cout << "lagarta\n";
+        } else { // anelídeo
+            if (c == "hematofago") cout << "sanguessuga\n";
+            else cout << "minhoca\n";
+        }
+    }
+
+    return 0;
+}
+
+*/
