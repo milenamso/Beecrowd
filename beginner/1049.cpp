@@ -39,7 +39,7 @@ int main() {
 }
 
 /*
-there is a optimize for to solve the problema
+there is a optimize form to solve the problema
 
 #include <bits/stdc++.h>
 using namespace std;
